@@ -1,0 +1,15 @@
+{
+    "name": "pine/qtx",
+    "description": "Quantox first test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Aleksandar Glisovic",
+            "email": "gsorry@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {"Pine\\": "src/Pine"}
+    }
+}
