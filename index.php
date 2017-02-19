@@ -11,10 +11,11 @@ include 'vendor/autoload.php';
 use Pine\Woman;
 use Pine\Man;
 use Pine\Child;
+use Pine\Enum\Gender;
 
 $woman = new Woman('26.09.1986', 'Jelena', 'Jovanovic');
 $man = new Man('15.02.1982', 'Marko', 'Jovanovic');
-$child = new Child('06.05.2011', \Pine\Enum\Gender::MALE, 'Nikola', 'Jovanovic');
+$child = new Child('06.05.2011', Gender::MALE, 'Nikola', 'Jovanovic');
 
 $woman->goHome();
 $woman->doRest();
